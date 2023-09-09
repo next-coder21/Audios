@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    font-family: 'roboto',sans-serif;
+}
+.disk{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(./assest/Rose\ Gold\ Elegant\ Monogram\ Floral\ Circular\ Logo.png);
+    background-size: cover;
+    box-shadow: 0 0 0 10px #896542;
+    animation: rotate 20s linear infinite;
+    animation-play-state: paused;
+}
+.disk.play{
+    animation-play-state: running;
+}
+.song-slider{
+    width: 100%;
+    position: relative;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.seek-bar{
+    -webkit-appearance:none ;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #896542;
+    cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 1px;
+    height: 20px;
+    background: #123456;
+    box-shadow: -400px 0 0 400px #899500;
+}
+
+.current-time,.song-duration{
+font-size: 14px;
+}
+
+.song-duration{
+    position: absolute;
+    right: 0;
+}
+
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.play-btn{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: #896542; */
+    cursor: pointer;
+    border: none;
+}
+.play-btn span{
+    position: absolute;
+    top: 35%;
+    left: 35%; 
+    transform: translate(-50%);
+    width: 10px;
+    height: 20px;
+    border-radius: 2px;
+    background: #123456;
+    transition: .5s;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+}
+.play-btn span:nth-child(2){
+    left: 65%;
+    transform-origin: center;
+}
+
+.play-btn.pause span:nth-child(2){
+    transform: translateY(-50%) scaleY(0);
+}
+
+.play-btn.pause span:nth-child(1){
+    
+    width: 40%;
+    left: 53%;
+    transform: translate(-45%,0%);
+    border-radius: 0;
+    clip-path: polygon(0 1%, 100% 50%, 100% 50%, 0% 100%);
+
+}
+
+.play-btn.pause{
+    animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0;
+    }
+    50%{
+        box-shadow: 0 0 0 5px #123456;
+    }
+    100%{
+        box-shadow: 0 0 0 5px #896542;
+    }
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #123456 ;
+    cursor: pointer;
+}
