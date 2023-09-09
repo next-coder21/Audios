@@ -49,7 +49,7 @@ let songs=[{
 },{
     name:"song 7",
     title:"04 Kaatukulle",
-    path:'/VBS 2016/04 Kaatukule.mp3',
+    path:'/VBS 2016/04 Kaatukulae.mp3',
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/4.png',
