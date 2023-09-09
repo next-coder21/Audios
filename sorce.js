@@ -17,7 +17,7 @@ let songs=[{
 },{
     name:"song 3",
     title:"Enthan uzhathil",
-    path:"/VBS2015/21 Enthan uzhzhaththil.mp3",
+    path:"./VBS2015/21 Enthan uzhzhaththil.mp3",
     category:'Thyana',
     author:"KK Diocise",
     cover:"./assest/vbs 2015/3.png",
@@ -26,14 +26,14 @@ let songs=[{
 ,{
     name:"song 4",
     title:"01 Uruthiyayiru",
-    path:"/VBS 2016/01 Uruthiyairu.mp3",
+    path:"./VBS 2016/01 Uruthiyairu.mp3",
     author:"KK Diocise",
     cover:"assest/2016/1.png",
     year:'2016'
 },{
     name:"song 5",
     title:"02 Kalangamilla",
-    path:"/VBS 2016/02 Kalankamilla.mp3",
+    path:"./VBS 2016/02 Kalankamilla.mp3",
     author:"KK Diocise",
     cover:"assest/2016/2.png",
     year:'2016'
@@ -43,13 +43,13 @@ let songs=[{
     title:'03 Abraham',
     year:'2016',
     category:'Thyana',
-    path:'/VBS 2016/03 Abraham.mp3',
+    path:'./VBS 2016/03 Abraham.mp3',
     author:'KK Diocise',
     cover:'./assest/2016/3.png'
 },{
     name:"song 7",
     title:"04 Kaatukulle",
-    path:'/VBS 2016/04 Kaatukulae.mp3',
+    path:'./VBS 2016/04 Kaatukulae.mp3',
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/4.png',
@@ -57,7 +57,7 @@ let songs=[{
 },{
     name:"song 8",
     title:"05 Jebipom",
-    path:"/VBS 2016/05 Jebipom.mp3",
+    path:"./VBS 2016/05 Jebipom.mp3",
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/5.png',
@@ -66,28 +66,28 @@ let songs=[{
 ,{
     name:"song 9",
     title:"06 Odu",
-    path:"/VBS 2016/06 Odu.mp3",
+    path:"./VBS 2016/06 Odu.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/6.png',
     year : '2016'
 },{
     name:"song 10",
     title:"07 Katha Kelu",
-    path:"/VBS 2016/07 Kadhakelu.mp3",
+    path:"./VBS 2016/07 Kadhakelu.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/7.png',
     year : '2016'
 },{
     name:"song 11",
     title:"08 Thulli odi",
-    path:"/VBS 2016/08 Thulli odi.mp3",
+    path:"./VBS 2016/08 Thulli odi.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/8.png',
     year:'2016'
 },{
     name:"song 12",
     title:"09 Anbu",
-    path:"/VBS 2016/09 Anbu.mp3",
+    path:"./VBS 2016/09 Anbu.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/9.png',
     year:'2016'
@@ -97,13 +97,13 @@ let songs=[{
     title:'10 Vaazhkai',
     year:'2016',
     category:'Thyana',
-    path:'/VBS 2016/10 Vaazhkai.mp3',
+    path:'./VBS 2016/10 Vaazhkai.mp3',
     author:'KK Diocise',
     cover:'./assest/2016/10.png'
 },{
     name:"song 14",
     title:"11 Naavu",
-    path:'/VBS 2016/11 Naavu.mp3',
+    path:'./VBS 2016/11 Naavu.mp3',
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/11.png',
@@ -111,7 +111,7 @@ let songs=[{
 },{
     name:"song 15",
     title:"12 Jeevantae",
-    path:"/VBS 2016/12 Jeevantae.mp3",
+    path:"./VBS 2016/12 Jeevantae.mp3",
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/12.png',
@@ -120,28 +120,28 @@ let songs=[{
 ,{
     name:"song 16",
     title:"13 Chinna Siruvan",
-    path:"/VBS 2016/13 Chinna.mp3",
+    path:"./VBS 2016/13 Chinna.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/13.png',
     year : '2016'
 },{
     name:"song 17",
     title:"14 City Road",
-    path:"/VBS 2016/14 City road.mp3",
+    path:"./VBS 2016/14 City road.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/14.png',
     year : '2016'
 },{
     name:"song 18",
     title:"15 Vaanathula",
-    path:"/VBS 2016/15 Vaanathula.mp3",
+    path:"./VBS 2016/15 Vaanathula.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/15.png',
     year:'2016'
 },{
     name:"song 19",
     title:"16 Let Us",
-    path:"/VBS 2016/16 Let Us.mp3",
+    path:"./VBS 2016/16 Let Us.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/16.png',
     year:'2016'
@@ -151,13 +151,13 @@ let songs=[{
     title:'Thayapararae',
     year:'2016',
     category:'17 Thyana',
-    path:'/VBS 2016/17 Thayapararey.mp3',
+    path:'./VBS 2016/17 Thayapararey.mp3',
     author:'KK Diocise',
     cover:'./assest/2016/17.png'
 },{
     name:"song 21",
     title:"18 Varunthidum",
-    path:'/VBS 2016/18 Varuntidum.mp3',
+    path:'./VBS 2016/18 Varuntidum.mp3',
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/18.png',
@@ -165,7 +165,7 @@ let songs=[{
 },{
     name:"song 22",
     title:"19 Nimathi",
-    path:"/VBS 2016/19 Nimathi.mp3",
+    path:"./VBS 2016/19 Nimathi.mp3",
     category:'Thyana',
     author:"KK Diocise",
     cover:'./assest/2016/19.png',
@@ -174,14 +174,14 @@ let songs=[{
 ,{
     name:"song 23",
     title:"20 Calvary",
-    path:"/VBS 2016/20 Calvary.mp3",
+    path:"./VBS 2016/20 Calvary.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/20.png',
     year : '2016'
 },{
     name:"song 24",
     title:"21 Sugama",
-    path:"/VBS 2016/21 Sugama.mp3",
+    path:"./VBS 2016/21 Sugama.mp3",
     author:"KK Diocise",
     cover:'./assest/2016/21.png',
     year : '2016'
